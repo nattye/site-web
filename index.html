@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="index.css" />
+        <title>Mon 1er siteweb</title>
+    </head>
+<body>    
+ <div id="bloc_page"> 
+   <header>    
+     <div id="titre_principal">    
+       <div id="logo">        
+            <h1>Mon 1er site web</h1>              
+       </div>                    
+             
+     </div>               
+    <nav>           
+      <ul>          
+        <li><a href="#">Accueil</a></li>        
+        <li><a href="#">Blog</a></li>            
+        <li><a href="#">Contact</a></li>                
+       </ul>                 
+    </nav>                
+   </header>                     
+                    
+  <div id="banniere_image">              
+    <div id="banniere_description">       
+    <a href="https://openclassrooms.com" title="Vous ne le regretterez pas !" id="url">OpenClassrooms</a>     
+    </div>        
+  </div>              
+                    
+<section>                  
+  <article>             
+    <h1>Je suis un grand voyageur</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi.</p>
+        <p>Vivamus sed libero nec mauris pulvinar facilisis ut non sem. Quisque mollis ullamcorper diam vel faucibus. </p>
+        <p>Phasellus ligula massa, congue ac vulputate non, dignissim at augue. Sed auctor fringilla quam quis porttitor.</p>
+  </article> 
+      
+<aside>        
+  <h1> A propos de l'auteur</h1>          
+     <img src="images/bulle.png" alt="" id="fleche_bulle" />           
+      <p id="photo_zozor"><img src="zozor_classe.png" alt="Photo de Zozor" /></p>              
+      <p>Laisse-moi le temps de me présenter : je m'appelle ......, je suis né un 23 novembre 2005.</p>                        
+      <a href="https://www.facebook.com/openclassroomsfr"><img src="facebook.png" alt="Facebook"/></a>
+      <a href="https://twitter.com/OCFrance"><img src="twitter.png" alt="Twitter"/></a>
+</aside>              
+                   
+                    
+</section>                    
+<form class="form-horizontal" method="post" action="traitement.php">
+    <label for="nom">Nom</label>
+      <input type="text" name="nom" id="nom" placeholder="Nom" required />
+    <label for="prenom">Prénom</label>
+      <input type="text" name="prenom" id="prenom" placeholder="Prénom" required />
+     </br> 
+      <label for="message">Quel est votre question ?</label> 
+      <textarea cols="2" id="message" name="message"></textarea>
+            
+  <button class="send-button" id="submit" type="submit">Envoyer demande </button>
+  <p><a href="mailto:votrenom@bidule.com">Envoyez-moi un e-mail !</a></p>
+  </form>                  
+<footer>
+    <div id="tweet">
+        <h1>Mon dernier tweet</h1>
+        <p>Bonjour bienvenue sur mon site !</p>
+        <p>le 17 avril à 15h</p>
+    </div>
+    <div id="mes_photos">
+        <h1>Mes photos</h1>
+    <img src="photo1.jpg" alt="Photographie" /><img src="photo2.jpg" alt="Photographie" /><img src="photo3.jpg" alt="Photographie" />
+    </div>
+    <div id="mes_amis">
+        <h1>Mes amis</h1>
+        <div id="listes_amis">
+            <ul>
+                <li><a href="#">Pupi le lapin</a></li>
+                <li><a href="#">Mr Baobab</a></li>
+                <li><a href="#">Kaiwaii</a></li>
+            </ul>
+            <ol>
+                <li><a href="#">Belette</a></li>
+                <li><a href="#">Ptit prince</a></li>
+                <li><a href="#">Mr Fan</a></li>
+            </ol>
+        </div>
+    </div>
+</footer>               
+  </div>          
+  </body>      
+</html>    
